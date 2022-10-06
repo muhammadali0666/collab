@@ -1,0 +1,60 @@
+.logos-inner {
+  padding-bottom: 158px;
+}
+.logos-paragraph {
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 31px;
+text-align: center;
+letter-spacing: 0.48px;
+color: #080829;
+margin-bottom: 54px;
+}
+.logos-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+@media only screen and (max-width: 850px) {
+  .logos-inner {
+    padding-bottom: 98px;
+  }
+  .logos-paragraph {
+    font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31px;
+  text-align: center;
+  margin-bottom: 34px;
+  }
+  .logos-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+  }
+}
+@media only screen and (max-width: 500px) {
+  .logos-inner {
+    padding-bottom: 58px;
+  }
+  .logos-paragraph {
+    font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  }
+  .logos-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  flex-wrap: wrap;
+  }
+}

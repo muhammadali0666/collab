@@ -1,0 +1,198 @@
+.invite-inner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.box-box {
+  display: flex;
+  align-items: center;
+}
+.box-box-img {
+  margin-right: 24px;
+}
+.invite-img {
+  margin-right: 128px;
+}
+.invite-paragraph {
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 56px;
+letter-spacing: 1.44px;
+color: #080829;
+margin-bottom: 27px;
+}
+.invite-text {
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+letter-spacing: 0.36px;
+color: #545479;
+margin-bottom: 35px;
+}
+.invite-p {
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+letter-spacing: 0.36px;
+color: #080829;
+margin-bottom: 20px;
+}
+.invite-btn {
+  border: none;
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #FFFFFF;
+padding: 16px 36px;
+background: #3F53D8;
+border-radius: 14px;
+margin-top: 20px;
+}
+@media only screen and (max-width: 1156px) {
+  .invite-inner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+    flex-direction: column;
+  }
+  .result-inner {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .box-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .invite-img {
+    margin-right: 0px;
+  }
+  .invite-paragraph {
+    font-family: 'Plus Jakarta Sans';
+    text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+line-height: 56px;
+  letter-spacing: 1.44px;
+  color: #080829;
+  margin-bottom: 27px;
+  }
+  .invite-text {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.36px;
+  color: #545479;
+  margin-bottom: 30px;
+  }
+  .invite-p {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.36px;
+  color: #080829;
+  margin-bottom: 20px;
+  }
+  .invite-btn {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  padding: 16px 36px;
+  background: #3F53D8;
+  border-radius: 14px;
+  margin-top: 20px;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .invite-inner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+  }
+  .invite-img {
+    margin-right: 0px;
+  }
+  .invite-paragraph {
+    font-family: 'Plus Jakarta Sans';
+    text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 1.44px;
+  color: #080829;
+  margin-bottom: 27px;
+  }
+  .invite-text {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.36px;
+  color: #545479;
+  margin-bottom: 35px;
+  }
+  .invite-p {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.36px;
+  color: #080829;
+  margin-bottom: 20px;
+  }
+  .invite-btn {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  padding: 16px 36px;
+  background: #3F53D8;
+  border-radius: 14px;
+  margin-top: 20px;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+  }
+}
